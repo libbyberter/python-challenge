@@ -21,7 +21,8 @@ Analyzes file for:
 Prints results of financial analysis to terminal and to a text file stored in the analysis folder (financial_analysis.txt)
 
 
-
+  
+  
 PyPoll
 
 Uses csv data file in Resources folder
