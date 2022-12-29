@@ -4,7 +4,7 @@ homework repo for unit 3
 
 PyBank
 
-Uses csv data file in Resources folder
+Uses csv data file in Resources folder  
 Script main.py used for the analysis
 
 Analyzes file for:
@@ -19,13 +19,13 @@ Analyzes file for:
 * The greatest decrease in profits (date and amount) over the entire period
 
 Prints results of financial analysis to terminal and to a text file stored in the analysis folder (financial_analysis.txt)
-
-
   
   
+  
+    
 PyPoll
 
-Uses csv data file in Resources folder
+Uses csv data file in Resources folder  
 Script main.py used for the analysis
 
 Analyzes file for:
