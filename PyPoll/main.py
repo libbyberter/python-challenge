@@ -67,8 +67,8 @@ for n in range(0,len(candidate_list)):
     print(f"{candidate_list[n]} received {round(vote_percent,2)}% of the votes ({len(vote_count):,} votes)")
     text_file.append(f"{candidate_list[n]} received {round(vote_percent,2)}% of the votes ({len(vote_count):,} votes)")
     vote_count = []
-# print winner information
 
+# print winner information
 print("-----------------------------------------------------------------")
 print (f"{vote_name} is the winner with {round(vote_high,2)}% of the votes")
 text_file.append("-----------------------------------------------------------------")

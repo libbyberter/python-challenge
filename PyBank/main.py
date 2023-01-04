@@ -22,8 +22,6 @@ with open (csvpath, encoding = "utf-8") as csvfile:
         month.append(row[0])
         profit.append(int(row[1]))
         
-    #print(f"Months: {len(month)}")
-    #print(f"Total profit/losses: ${sum(profit):,}")
 
 
 # find the monthly profit gain/loss and the average gain/loss
@@ -33,23 +31,19 @@ for x in range(1, len(month)):
     change.append(gain)
     
 avg_profit = round(sum(change)/len(change),2)
-#print(avg_profit)
+
 
 
 # find the month & value of maximum profit gain
 profit_max = max(change)
 profit_max_index = change.index(profit_max)
 
-#print(profit_max)
-#print(month[profit_max_index+1])
 
 
 # find the month & value of maximum profit loss
 profit_min = min(change)
 profit_min_index = change.index(profit_min)
 
-#print(profit_min)
-#print(month[profit_min_index + 1])
 
 
 # print results to terminal
